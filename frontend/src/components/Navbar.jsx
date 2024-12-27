@@ -12,7 +12,7 @@ const Navbar = () => {
             </ul>
 
             <div className="nav-logo">
-                <Link to='/'>BikerShop<span>.</span></Link>
+                <Link to='/'>BellaVogue<span>.</span></Link>
             </div>
 
             <div className="nav-icons relative">
