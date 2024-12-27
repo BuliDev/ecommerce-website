@@ -1,9 +1,12 @@
-import React from 'react'
+import { Outlet } from 'react-router'
+import './App.css'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>Hello World</h1>
+      <Navbar />
+      <Outlet />
     </>
   )
 }
