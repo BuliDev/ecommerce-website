@@ -220,6 +220,50 @@ nav {
   text-decoration: underline;
 }
 
+.section-header {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.section-subheader {
+  max-width: 500px;
+  margin: auto;
+  color: var(--text-light);
+  text-align: center;
+}
+
+.product-card-content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.product-card-content h4 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+}
+
+.product-card-content p {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.product-card-content p s {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-light);
+}
+
+.product-rating {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  color: goldenrod;
+}
 
 @media (width < 900px) {
   .nav-links {
