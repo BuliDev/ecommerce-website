@@ -371,6 +371,43 @@ nav {
   color: var(--text-light);
 }
 
+.blog-container {
+  background-color: var(--extra-light);
+  border-radius: 1rem;
+}
+
+.blog-card {
+  background-color: var(--white);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.blog-card-content h6 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.blog-card-content h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.blog-card-content p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-light);
+}
+
+
 
 
 @media (width < 900px) {

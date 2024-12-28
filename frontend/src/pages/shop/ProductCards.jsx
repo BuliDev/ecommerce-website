@@ -3,7 +3,6 @@ import { Link } from 'react-router'
 import RatingStar from '../../components/RatingStar'
 
 const ProductCards = ({products}) => {
-    console.log(products)
   return (
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
         {
@@ -16,7 +15,7 @@ const ProductCards = ({products}) => {
 
                         <div className='hover:block absolute top-3 right-3'>
                             <button>
-                                <i class="ri-shopping-cart-2-line bg-primary p-1.5 text-white hover:bg-primary-dark"></i>
+                                <i className="ri-shopping-cart-2-line bg-primary p-1.5 text-white hover:bg-primary-dark"></i>
                             </button>
                         </div>
                     </div>
